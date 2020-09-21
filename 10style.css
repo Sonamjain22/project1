@@ -1,0 +1,219 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Raleway', sans-serif;;
+   box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#background{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    width: 10%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0px;
+    
+
+}
+#center{
+    width: 35%;
+    height: 100%;
+    background-color: #dadada;
+
+}
+#right{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+#left h1{
+    letter-spacing: -5px;
+    margin-bottom: 50px;
+    color: black;
+
+
+}
+#left a{
+    display:block;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(128, 119, 119);
+    font-weight: 700;
+    margin-top: 30px;
+    opacity: .8;
+}
+#left>a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color:#928a8a;
+    font-weight: 500;
+    
+}
+#left>a i{
+    margin-right:20px;
+}
+#center{
+    background-image: url(https://images.unsplash.com/photo-1526057565006-20beab8dd2ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80https://images.unsplash.com/photo-1526057565006-20beab8dd2ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    background-position: center;
+    background-size: cover;
+
+
+}
+#middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#lineelm{
+    display: flex;
+    align-items: center;
+}
+#middle .line{
+    width: 108px;
+    height: 2px;
+    background-color: black;
+}
+#middle #lineelm h1{
+    margin:0px 25px;
+    font-size: 20px;
+}
+#middle>h1{
+    font-size: 100px;
+}
+#middle p{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(92, 88, 88);
+    opacity: .5;
+}
+#inputdiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin-top: 50px;
+    outline: none;
+    
+
+}
+#inputdiv input{
+    height: 40px;
+    width: 80%;
+    border: 2px solid #f3f3f3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 12px 30px;
+    padding-left: 50px;
+    box-shadow: 0 20px 45px rgb(183, 222, 231);
+}
+#inputdiv button{
+    width:20%;
+    height:40px ;
+    background-color: rgb(69, 203, 236);
+    border-color: rgb(69, 203, 236);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    font-weight: 900;
+    box-shadow: 0 10px 45px rgb(116, 219, 245);
+}
+#inputdiv i{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translate(0%,-50%);
+     color: #dadada;
+}
+#inputdiv input::placeholder{
+    color: #dadada;
+    
+}
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+#play{
+    position: relative;
+    width: 50%;
+    height: 120px;
+    background-image: url(https://images.unsplash.com/photo-1533579511347-20820277505e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
+    background-position: center;
+    background-size: cover;
+
+}
+#para{
+    width: 50%;
+    height: 120px;
+    background-color:#fff;
+
+}
+#para p{
+    word-spacing: 8px;
+    opacity: .6;
+    color:black;
+    margin-left: 30px;
+    font-weight: 700;
+    opacity: .4;
+}
+#play i{
+    position: absolute;
+    font-size: 50px;
+    opacity: .3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#sidepart a{
+    text-decoration: none;
+    font-size: 8px;
+    color:black;
+    opacity: .5;
+    margin-left: 20px;
+    font-weight: 700;
+    
+}
+#sidepart{
+    position:absolute;
+    top: 55%;
+    right: 50px;
+    
+    transform-origin: 100% 0%;
+    transform:rotate(-90deg) 
+}
+#down{
+    position: absolute;
+    bottom: 5%;
+    right: 10px;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    opacity: .2;
+}
+#topicon{
+    position: absolute;
+    right: 8px;
+    top: 20px;
+    color: black;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+#topicon i{
+    margin-left: 10px;
+}
